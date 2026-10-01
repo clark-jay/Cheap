@@ -12,7 +12,7 @@ if (import.meta.env.VITE_USE_MOCK === "true") setupMock();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Cheap">
       <AuthProvider>
         <CartProvider>
           <App />
